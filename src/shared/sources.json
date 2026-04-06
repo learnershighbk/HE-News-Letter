@@ -1,0 +1,133 @@
+{
+  "sources": [
+    {
+      "name": "Inside Higher Ed",
+      "url": "https://www.insidehighered.com",
+      "method": "rss",
+      "language": "en",
+      "category": "higher-education",
+      "rssUrl": "https://www.insidehighered.com/rss/feed",
+      "enabled": true
+    },
+    {
+      "name": "Times Higher Education",
+      "url": "https://www.timeshighereducation.com",
+      "method": "rss",
+      "language": "en",
+      "category": "higher-education",
+      "rssUrl": "https://www.timeshighereducation.com/rss",
+      "enabled": true
+    },
+    {
+      "name": "The Chronicle of Higher Education",
+      "url": "https://www.chronicle.com",
+      "method": "rss",
+      "language": "en",
+      "category": "higher-education",
+      "rssUrl": "https://www.chronicle.com/feed",
+      "enabled": true
+    },
+    {
+      "name": "University World News",
+      "url": "https://www.universityworldnews.com",
+      "method": "rss",
+      "language": "en",
+      "category": "higher-education",
+      "rssUrl": "https://www.universityworldnews.com/rss.php",
+      "enabled": true
+    },
+    {
+      "name": "EDUCAUSE Review",
+      "url": "https://er.educause.edu",
+      "method": "rss",
+      "language": "en",
+      "category": "ed-tech",
+      "rssUrl": "https://er.educause.edu/rss",
+      "enabled": true
+    },
+    {
+      "name": "MIT News - AI",
+      "url": "https://news.mit.edu/topic/artificial-intelligence2",
+      "method": "rss",
+      "language": "en",
+      "category": "ai",
+      "rssUrl": "https://news.mit.edu/topic/mitartificial-intelligence2-rss.xml",
+      "enabled": true
+    },
+    {
+      "name": "Stanford HAI",
+      "url": "https://hai.stanford.edu/news",
+      "method": "rss",
+      "language": "en",
+      "category": "ai",
+      "rssUrl": "https://hai.stanford.edu/news/rss.xml",
+      "enabled": true
+    },
+    {
+      "name": "The Rundown AI",
+      "url": "https://www.therundown.ai",
+      "method": "rss",
+      "language": "en",
+      "category": "ai",
+      "rssUrl": "https://www.therundown.ai/rss",
+      "enabled": true
+    },
+    {
+      "name": "한국대학신문",
+      "url": "https://news.unn.net",
+      "method": "scraping",
+      "language": "ko",
+      "category": "higher-education-kr",
+      "selectors": {
+        "articleList": ".article-list li, .news-list li",
+        "title": "a.title, h4.titles a, .tit a",
+        "link": "a",
+        "date": ".date, .byline .date, span.date",
+        "content": ".article-body, .view-cont, #articleBody"
+      },
+      "enabled": true
+    },
+    {
+      "name": "대학저널",
+      "url": "https://www.dhnews.co.kr",
+      "method": "rss",
+      "language": "ko",
+      "category": "higher-education-kr",
+      "rssUrl": "https://www.dhnews.co.kr/rss/allArticle.xml",
+      "enabled": true
+    },
+    {
+      "name": "베리타스알파",
+      "url": "https://www.veritas-a.com",
+      "method": "rss",
+      "language": "ko",
+      "category": "higher-education-kr",
+      "rssUrl": "https://www.veritas-a.com/rss/allArticle.xml",
+      "enabled": true
+    },
+    {
+      "name": "한국교육신문",
+      "url": "https://www.hangyo.com",
+      "method": "rss",
+      "language": "ko",
+      "category": "education-kr",
+      "rssUrl": "https://www.hangyo.com/rss/allArticle.xml",
+      "enabled": true
+    },
+    {
+      "name": "교육부 보도자료",
+      "url": "https://www.moe.go.kr",
+      "method": "scraping",
+      "language": "ko",
+      "category": "policy-kr",
+      "selectors": {
+        "articleList": ".board-list tbody tr",
+        "title": "td.subject a",
+        "link": "td.subject a",
+        "date": "td.date",
+        "content": ".view_cont"
+      },
+      "enabled": true
+    }
+  ]
+}
