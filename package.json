@@ -28,6 +28,7 @@
     "@notionhq/client": "^5.16.0",
     "cheerio": "^1.2.0",
     "dotenv": "^17.4.1",
+    "p-limit": "^6.2.0",
     "rss-parser": "^3.13.0",
     "typescript": "^6.0.2",
     "uuid": "^13.0.0",
